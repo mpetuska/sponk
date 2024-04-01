@@ -1,0 +1,231 @@
+[
+  {
+    "id": "92A8700AF2A1405C9A3B1CC4D95A113B",
+    "contactPerson": {
+      "contactMethod": "app",
+      "id": "652F3ED319A3A18EBF1F6F7178FAA86B",
+      "email": "martynas@petuska.dev",
+      "firstName": "Martynas",
+      "lastName": "Petuška",
+      "imageUrl": "https://spond.com/images/e13/e13a7af3ed0b3b7890d230b8d58be0a0.jpeg",
+      "phoneNumber": "+447597518383",
+      "unableToReach": false
+    },
+    "name": "Spikeopaths",
+    "activity": "volleyball",
+    "imageUrl": "https://spond.com/images/813/8130be55e1bc9e11ed41240a4981807a.jpeg",
+    "createdTime": "2023-12-20T14:20:05Z",
+    "members": [
+      {
+        "id": "24F34B8C78C340508D0160CC1B1D86B1",
+        "profile": {
+          "contactMethod": "app",
+          "id": "88EE2547B0E5FF48F9D55855454D3BDD",
+          "firstName": "Robert",
+          "lastName": "McMenamin",
+          "imageUrl": "https://spond.com/images/c9c/c9cd3f3f8cc71fd7084de98994e4fc90.jpeg",
+          "phoneNumber": "+447989509571",
+          "unableToReach": false
+        },
+        "firstName": "Robert",
+        "lastName": "McMenamin",
+        "phoneNumber": "+447989509571",
+        "createdTime": "2023-12-20T16:47:45Z",
+        "guardians": [],
+        "subGroups": [
+          "A24547EC55F6448B9C2950F783719FDB",
+          "CA9BC9A55E1B45C99A97B7DC9D8D346E"
+        ],
+        "dateOfBirth": "1967-09-30",
+        "verifiedDateOfBirth": false,
+        "address": [
+          "27 Horn Street, Compton",
+          "Newbury",
+          "RG20 6QS",
+          null
+        ],
+        "roles": [
+          "42F57DBC93264DA0BB2C0BD48A808616"
+        ],
+        "fields": {},
+        "respondent": true
+      },
+      {
+        "id": "4F6112D1D9204AF5B06DDEC72649C5D6",
+        "profile": {
+          "contactMethod": "app",
+          "id": "6201A09715C52BA0E557080C3E45CC60",
+          "email": "julianahms@hotmail.com",
+          "firstName": "Juliana",
+          "lastName": "Sarmento",
+          "unableToReach": false
+        },
+        "firstName": "Juliana",
+        "lastName": "Sarmento",
+        "email": "julianahms@hotmail.com",
+        "createdTime": "2024-01-01T09:51:02Z",
+        "guardians": [],
+        "subGroups": [],
+        "dateOfBirth": "1999-08-24",
+        "fields": {},
+        "respondent": true
+      },
+      {
+        "id": "DDDFB6CCBF6C4395B9730121CD370BB8",
+        "profile": {
+          "contactMethod": "app",
+          "id": "652F3ED319A3A18EBF1F6F7178FAA86B",
+          "email": "martynas@petuska.dev",
+          "firstName": "Martynas",
+          "lastName": "Petuška",
+          "imageUrl": "https://spond.com/images/e13/e13a7af3ed0b3b7890d230b8d58be0a0.jpeg",
+          "phoneNumber": "+447597518383",
+          "unableToReach": false
+        },
+        "firstName": "Martynas",
+        "lastName": "Petuška",
+        "email": "martynas@petuska.dev",
+        "phoneNumber": "+447597518383",
+        "createdTime": "2023-12-20T14:20:05Z",
+        "guardians": [],
+        "subGroups": [
+          "975781246CA941ADAA326B4F66F46621"
+        ],
+        "dateOfBirth": "1994-12-31",
+        "verifiedDateOfBirth": false,
+        "roles": [
+          "9C2B2523F429406D97E573F501B87159"
+        ],
+        "fields": {
+          "BA6F1E45EFE64459A6DB7D0C42F7A503": 69
+        },
+        "respondent": true
+      }
+    ],
+    "membershipRequests": [],
+    "subGroups": [
+      {
+        "id": "1BAB32513B5943EEAF1C244D986D8D54",
+        "name": "Spikeopaths Mixed 2",
+        "color": "#ff7e29"
+      },
+      {
+        "id": "486314A896D54C3498E9EDEE219BDD99",
+        "name": "Spikeopaths Mixed 3",
+        "color": "#ff5ca1"
+      },
+      {
+        "id": "9021A486826647F7BD8E67A7950BDFB8",
+        "name": "Spikeopaths Mixed 1",
+        "color": "#13cf13"
+      },
+      {
+        "id": "975781246CA941ADAA326B4F66F46621",
+        "name": "Spikeopaths Men 1",
+        "color": "#0084ff"
+      },
+      {
+        "id": "A24547EC55F6448B9C2950F783719FDB",
+        "name": "Spikeopaths Men 2",
+        "color": "#7646ff"
+      },
+      {
+        "id": "CA9BC9A55E1B45C99A97B7DC9D8D346E",
+        "name": "Spikeopaths Women",
+        "color": "#fa3c4c"
+      }
+    ],
+    "experiments": {},
+    "shareContactInfo": true,
+    "adminsCanAddMembers": true,
+    "contactInfoHidden": false,
+    "memberPermissions": [
+      "posts"
+    ],
+    "guardianPermissions": [
+      "posts"
+    ],
+    "eventVisibility": "ALL",
+    "type": 1,
+    "invitedToAppTime": "1970-01-01T00:00:00Z",
+    "signupUrl": "https://group.spond.com/NKMTN",
+    "countryCode": "GBR",
+    "allowSmsNag": false,
+    "bonusEnabled": false,
+    "fieldDefs": [
+      {
+        "id": "BA6F1E45EFE64459A6DB7D0C42F7A503",
+        "name": "Player Number",
+        "type": "NUMBER",
+        "visibility": "ALL",
+        "source": "GROUP",
+        "permission": "CLUB_AND_GROUP_ADMIN",
+        "locked": false,
+        "required": false
+      }
+    ],
+    "defaultFields": {
+      "field_member_address": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_dob": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_guardian": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      }
+    },
+    "roles": [
+      {
+        "id": "9C2B2523F429406D97E573F501B87159",
+        "name": "Group manager",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "members",
+          "files",
+          "payments",
+          "chat",
+          "posts",
+          "admins",
+          "settings",
+          "polls"
+        ]
+      },
+      {
+        "id": "42F57DBC93264DA0BB2C0BD48A808616",
+        "name": "Coach",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      },
+      {
+        "id": "518B4A5A7F8245068C51D058F32AA13A",
+        "name": "Helper",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      }
+    ],
+    "addressFormat": [
+      "street",
+      "city",
+      "zip"
+    ],
+    "allowPrivatePayoutAccounts": true
+  }
+]

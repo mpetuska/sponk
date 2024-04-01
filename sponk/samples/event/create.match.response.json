@@ -1,0 +1,111 @@
+{
+  "id": "6047F02A363D431B8B328794816E9426",
+  "creatorId": "9354C047725627A87037AA4388AAF829",
+  "owners": [
+    {
+      "id": "9354C047725627A87037AA4388AAF829",
+      "response": "accepted"
+    }
+  ],
+  "heading": "Mix team – Another team",
+  "description": "Non repeating in main group match",
+  "startTimestamp": "2024-04-01T18:00:00Z",
+  "endTimestamp": "2024-04-01T19:00:00Z",
+  "meetupTimestamp": "2024-04-01T17:55:00Z",
+  "meetupPrior": 5,
+  "location": {
+    "id": "4C7C6D1E35A24044B30CED08F56325DA",
+    "feature": "10 Downing St",
+    "latitude": 51.5034,
+    "longitude": -0.1277265,
+    "postalCode": "SW1A 2AB",
+    "country": "GB",
+    "administrativeAreaLevel1": "England",
+    "administrativeAreaLevel2": "Greater London"
+  },
+  "matchInfo": {
+    "teamName": "Mix team",
+    "opponentName": "Another team",
+    "type": "HOME",
+    "scoresSet": false,
+    "scoresSetEver": false,
+    "scoresPublic": false,
+    "scoresFinal": false
+  },
+  "recipients": {
+    "group": {
+      "id": "7019205E340D4306AE2ED4E9D65C2878",
+      "contactPersonId": "9354C047725627A87037AA4388AAF829",
+      "name": "Mixed Test Volleyball",
+      "createdTime": 1711993292513,
+      "members": [
+        {
+          "id": "E3E3EC400F6C4F908DBC6F82709970F2",
+          "profile": {
+            "id": "9354C047725627A87037AA4388AAF829",
+            "unableToReach": false
+          },
+          "firstName": "Test",
+          "lastName": "User",
+          "respondent": false,
+          "guardians": []
+        }
+      ],
+      "type": 2,
+      "activity": "volleyball"
+    },
+    "profiles": [],
+    "guardians": []
+  },
+  "responses": {
+    "acceptedIds": [],
+    "declinedIds": [],
+    "unansweredIds": [],
+    "waitinglistIds": [],
+    "unconfirmedIds": [],
+    "declineMessages": {}
+  },
+  "tasks": {
+    "openTasks": [
+      {
+        "id": "2C825A8C5EFE358F958F8C1F1BBB7BEC",
+        "name": "Child",
+        "description": "aaa",
+        "adultsOnly": false,
+        "type": "OPEN",
+        "limit": 1,
+        "remaining": 1,
+        "accepted": [],
+        "declined": [],
+        "unanswered": []
+      },
+      {
+        "id": "BDD8D164CCE55DD268E335735E3A45C9",
+        "name": "Have Fun",
+        "description": "And all that",
+        "adultsOnly": false,
+        "type": "OPEN",
+        "limit": 1,
+        "remaining": 1,
+        "accepted": [],
+        "declined": [],
+        "unanswered": []
+      }
+    ],
+    "assignedTasks": []
+  },
+  "attachments": [],
+  "createdTime": "2024-04-01T17:52:05.432Z",
+  "expired": false,
+  "visibility": "INVITEES",
+  "behalfOfIds": [],
+  "autoAccept": false,
+  "hidden": false,
+  "autoReminderType": "DISABLED",
+  "participantsHidden": false,
+  "registered": false,
+  "commentsDisabled": false,
+  "type": "EVENT",
+  "updated": 1711993925447,
+  "matchEvent": true
+}

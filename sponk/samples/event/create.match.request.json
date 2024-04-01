@@ -1,0 +1,62 @@
+{
+  "heading": "Main Event",
+  "description": "Non repeating in main group match",
+  "spondType": "event",
+  "startTimestamp": "2024-04-01T18:00:00.000Z",
+  "endTimestamp": "2024-04-01T19:00:00.000Z",
+  "commentsDisabled": false,
+  "meetupPrior": 5,
+  "maxAccepted": 0,
+  "rsvpDate": null,
+  "location": {
+    "id": "6B66A5FBD0D544FD94058AF104465246",
+    "feature": "10 Downing St",
+    "latitude": 51.5034,
+    "longitude": -0.1277265,
+    "postalCode": "SW1A 2AB",
+    "country": "GB",
+    "administrativeAreaLevel1": "England",
+    "administrativeAreaLevel2": "Greater London"
+  },
+  "owners": [
+    {
+      "id": "9354C047725627A87037AA4388AAF829"
+    }
+  ],
+  "visibility": "INVITEES",
+  "participantsHidden": false,
+  "autoReminderType": "DISABLED",
+  "matchInfo": {
+    "type": "HOME",
+    "teamName": "Mix team",
+    "opponentName": "Another team"
+  },
+  "autoAccept": false,
+  "attachments": [],
+  "type": "EVENT",
+  "tasks": {
+    "openTasks": [
+      {
+        "name": "Have Fun",
+        "description": "And all that",
+        "type": "OPEN",
+        "adultsOnly": false,
+        "limit": 1
+      },
+      {
+        "name": "Child",
+        "description": "aaa",
+        "type": "OPEN",
+        "adultsOnly": false,
+        "limit": 1
+      }
+    ],
+    "assignedTasks": []
+  },
+  "recipients": {
+    "groupMembers": [],
+    "group": {
+      "id": "7019205E340D4306AE2ED4E9D65C2878"
+    }
+  }
+}

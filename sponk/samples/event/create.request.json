@@ -1,0 +1,52 @@
+{
+  "heading": "Main Event",
+  "description": "Non repeating in main group",
+  "spondType": "event",
+  "startTimestamp": "2024-04-01T18:00:00.000Z",
+  "endTimestamp": "2024-04-01T19:00:00.000Z",
+  "openEnded": false,
+  "commentsDisabled": false,
+  "meetupPrior": "5",
+  "maxAccepted": 0,
+  "rsvpDate": null,
+  "location": {
+    "latitude": 51.5033998,
+    "longitude": -0.1277265,
+    "featureName": "10 Downing St",
+    "postalCode": "SW1A 2AB",
+    "country": "GB",
+    "administrativeAreaLevel1": "England",
+    "administrativeAreaLevel2": "Greater London",
+    "feature": "10 Downing St"
+  },
+  "owners": [
+    {
+      "id": "9354C047725627A87037AA4388AAF829"
+    }
+  ],
+  "visibility": "INVITEES",
+  "participantsHidden": false,
+  "autoReminderType": "DISABLED",
+  "matchInfo": null,
+  "autoAccept": false,
+  "attachments": [],
+  "type": "EVENT",
+  "tasks": {
+    "openTasks": [
+      {
+        "name": "Have Fun",
+        "description": "And all that",
+        "type": "OPEN",
+        "adultsOnly": false,
+        "limit": 1
+      }
+    ],
+    "assignedTasks": []
+  },
+  "recipients": {
+    "groupMembers": [],
+    "group": {
+      "id": "7019205E340D4306AE2ED4E9D65C2878"
+    }
+  }
+}

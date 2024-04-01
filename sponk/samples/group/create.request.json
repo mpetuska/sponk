@@ -1,0 +1,21 @@
+{
+  "name": "Test Volleyball",
+  "type": 1,
+  "welcomeMessage": "A test group to try out spond features.",
+  "activity": "volleyball",
+  "contactInfoHidden": false,
+  "primaryContact": "email",
+  "chatAgeLimit": 18,
+  "subGroups": [
+    {
+      "color": "#0084FF",
+      "name": "Main",
+      "index": 0
+    },
+    {
+      "color": "#A695C7",
+      "name": "Secondary",
+      "index": 1
+    }
+  ]
+}

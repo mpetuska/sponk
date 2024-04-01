@@ -1,0 +1,275 @@
+[
+  {
+    "id": "7019205E340D4306AE2ED4E9D65C2878",
+    "contactPerson": {
+      "contactMethod": "email",
+      "id": "9354C047725627A87037AA4388AAF829",
+      "email": "test@email.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "unableToReach": false
+    },
+    "name": "Mixed Test Volleyball",
+    "welcomeMessage": "A mixed test group to try out spond features.",
+    "activity": "volleyball",
+    "createdTime": "2024-04-01T17:41:32Z",
+    "members": [
+      {
+        "id": "E3E3EC400F6C4F908DBC6F82709970F2",
+        "profile": {
+          "contactMethod": "email",
+          "id": "9354C047725627A87037AA4388AAF829",
+          "email": "test@email.com",
+          "firstName": "Test",
+          "lastName": "User",
+          "unableToReach": false
+        },
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test@email.com",
+        "createdTime": "2024-04-01T17:41:32Z",
+        "guardians": [],
+        "subGroups": [
+          "B8E12821844742C7BCED9D02227609AE",
+          "BC6A7B93E139480B897BE21916653200"
+        ],
+        "dateOfBirth": "1994-12-99",
+        "roles": [
+          "A2F07409D15949ECB0816A3018A9A510"
+        ],
+        "fields": {},
+        "respondent": false
+      }
+    ],
+    "membershipRequests": [],
+    "subGroups": [
+      {
+        "id": "B8E12821844742C7BCED9D02227609AE",
+        "name": "Main",
+        "color": "#000000"
+      },
+      {
+        "id": "BC6A7B93E139480B897BE21916653200",
+        "name": "Side",
+        "color": "#ffffff"
+      }
+    ],
+    "experiments": {},
+    "shareContactInfo": true,
+    "adminsCanAddMembers": true,
+    "contactInfoHidden": false,
+    "memberPermissions": [
+      "posts"
+    ],
+    "guardianPermissions": [
+      "posts"
+    ],
+    "eventVisibility": "INVITEES",
+    "chatAgeLimit": 0,
+    "type": 2,
+    "invitedToAppTime": "1970-01-01T00:00:00Z",
+    "countryCode": "GBR",
+    "allowSmsNag": false,
+    "bonusEnabled": false,
+    "fieldDefs": [],
+    "defaultFields": {
+      "field_member_address": {
+        "permission": "ADMINS_AND_ADULT_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_dob": {
+        "permission": "ADMINS_AND_ADULT_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_guardian": {
+        "permission": "ADMINS_AND_ADULT_MEMBERS",
+        "locked": false,
+        "required": false
+      }
+    },
+    "roles": [
+      {
+        "id": "A2F07409D15949ECB0816A3018A9A510",
+        "name": "Group manager",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "members",
+          "files",
+          "payments",
+          "chat",
+          "posts",
+          "admins",
+          "settings",
+          "polls"
+        ]
+      },
+      {
+        "id": "CF0093C61CD240A4B04FB9ED253C5A9E",
+        "name": "Coach",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      },
+      {
+        "id": "8AFF905DEA294C209ED0513FB24121E7",
+        "name": "Helper",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      }
+    ],
+    "addressFormat": [
+      "street",
+      "city",
+      "zip"
+    ],
+    "allowPrivatePayoutAccounts": true
+  },
+  {
+    "id": "FBCA17227B5B4855B89D5F33255E23E4",
+    "contactPerson": {
+      "contactMethod": "email",
+      "id": "9354C047725627A87037AA4388AAF829",
+      "email": "test@email.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "unableToReach": false
+    },
+    "name": "Test Volleyball",
+    "welcomeMessage": "A test group to try out spond features.",
+    "activity": "volleyball",
+    "createdTime": "2024-04-01T15:48:11Z",
+    "members": [
+      {
+        "id": "39ACD5D4387D4AC0ABFA652DB4F69B58",
+        "profile": {
+          "contactMethod": "email",
+          "id": "9354C047725627A87037AA4388AAF829",
+          "email": "test@email.com",
+          "firstName": "Test",
+          "lastName": "User",
+          "unableToReach": false
+        },
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test@email.com",
+        "createdTime": "2024-04-01T15:48:11Z",
+        "guardians": [],
+        "subGroups": [
+          "2E8CCD173BCB4E15B75573052727860F",
+          "ACC5DAAB6C7E4CC693CD3BD0C19BFB4D"
+        ],
+        "dateOfBirth": "1994-12-99",
+        "roles": [
+          "27B79B501C7E472A8352B3190B5360DA"
+        ],
+        "fields": {},
+        "respondent": true
+      }
+    ],
+    "membershipRequests": [],
+    "subGroups": [
+      {
+        "id": "2E8CCD173BCB4E15B75573052727860F",
+        "name": "Main",
+        "color": "#0084ff"
+      },
+      {
+        "id": "ACC5DAAB6C7E4CC693CD3BD0C19BFB4D",
+        "name": "Secondary",
+        "color": "#a695c7"
+      }
+    ],
+    "experiments": {},
+    "shareContactInfo": true,
+    "adminsCanAddMembers": true,
+    "contactInfoHidden": false,
+    "memberPermissions": [
+      "posts"
+    ],
+    "guardianPermissions": [
+      "posts"
+    ],
+    "eventVisibility": "INVITEES",
+    "type": 1,
+    "invitedToAppTime": "1970-01-01T00:00:00Z",
+    "countryCode": "GBR",
+    "allowSmsNag": false,
+    "bonusEnabled": false,
+    "fieldDefs": [],
+    "defaultFields": {
+      "field_member_address": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_dob": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      },
+      "field_member_guardian": {
+        "permission": "ADMINS_AND_ALL_MEMBERS",
+        "locked": false,
+        "required": false
+      }
+    },
+    "roles": [
+      {
+        "id": "27B79B501C7E472A8352B3190B5360DA",
+        "name": "Group manager",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "members",
+          "files",
+          "payments",
+          "chat",
+          "posts",
+          "admins",
+          "settings",
+          "polls"
+        ]
+      },
+      {
+        "id": "64A1DCDC8F764CFFA25FF192E1F1C958",
+        "name": "Coach",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      },
+      {
+        "id": "82A9975D14E84623AD03C00043649B25",
+        "name": "Helper",
+        "permissions": [
+          "events",
+          "fundraisers",
+          "payments",
+          "posts",
+          "polls"
+        ]
+      }
+    ],
+    "addressFormat": [
+      "street",
+      "city",
+      "zip"
+    ],
+    "allowPrivatePayoutAccounts": true
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "id": "C1476C3337DB460996B0F5AB535F425F",
+  "creatorId": "9354C047725627A87037AA4388AAF829",
+  "owners": [
+    {
+      "id": "9354C047725627A87037AA4388AAF829",
+      "response": "accepted"
+    }
+  ],
+  "heading": "Manual Event",
+  "startTimestamp": "2024-04-01T20:00:00Z",
+  "endTimestamp": "2024-04-01T21:00:00Z",
+  "openEnded": true,
+  "recipients": {
+    "group": {
+      "id": "7019205E340D4306AE2ED4E9D65C2878",
+      "contactPersonId": "9354C047725627A87037AA4388AAF829",
+      "name": "Mixed Test Volleyball",
+      "createdTime": 1711993292513,
+      "members": [
+        {
+          "id": "E3E3EC400F6C4F908DBC6F82709970F2",
+          "profile": {
+            "id": "9354C047725627A87037AA4388AAF829",
+            "unableToReach": false
+          },
+          "firstName": "Test",
+          "lastName": "User",
+          "respondent": false,
+          "guardians": []
+        }
+      ],
+      "type": 2,
+      "activity": "volleyball"
+    },
+    "profiles": [],
+    "guardians": []
+  },
+  "responses": {
+    "acceptedIds": [],
+    "declinedIds": [],
+    "unansweredIds": [],
+    "waitinglistIds": [],
+    "unconfirmedIds": [],
+    "declineMessages": {}
+  },
+  "tasks": {
+    "openTasks": [],
+    "assignedTasks": []
+  },
+  "attachments": [],
+  "createdTime": "2024-04-01T19:18:33.996Z",
+  "expired": false,
+  "visibility": "INVITEES",
+  "behalfOfIds": [],
+  "autoAccept": false,
+  "hidden": false,
+  "autoReminderType": "DISABLED",
+  "participantsHidden": false,
+  "registered": false,
+  "commentsDisabled": false,
+  "type": "EVENT",
+  "updated": 1711999114011,
+  "matchEvent": false
+}
