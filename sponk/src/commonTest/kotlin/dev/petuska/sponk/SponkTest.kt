@@ -1,9 +1,11 @@
 package dev.petuska.sponk
 
 import dev.petuska.sponk.data.event.NewEvent
+import dev.petuska.sponk.data.event.NewRecipients
 import dev.petuska.sponk.data.event.Recipients
 import dev.petuska.sponk.data.group.GroupType
 import dev.petuska.sponk.data.group.NewGroup
+import dev.petuska.sponk.data.group.NewSubGroup
 import dev.petuska.sponk.test.ASponkImplClientTest
 import kotlinx.coroutines.flow.count
 import kotlinx.coroutines.flow.first
@@ -32,13 +34,15 @@ class SponkTest : ASponkImplClientTest() {
         name = "Mixed Test Volleyball",
         welcomeMessage = "A mixed test group to try out spond features.",
         subGroups = listOf(
-          NewGroup.SubGroup(
+          NewSubGroup(
             color = "#000000",
             name = "Main",
+            members = listOf(),
           ),
-          NewGroup.SubGroup(
+          NewSubGroup(
             color = "#FFFFFF",
             name = "Side",
+            members = listOf(),
           )
         )
       )
@@ -93,8 +97,11 @@ class SponkTest : ASponkImplClientTest() {
         startTimestamp = Clock.System.now().plus(4.days),
         meetupPrior = "5",
         maxAccepted = 0,
-        recipients = Recipients(
-          group = group.toEventGroup(),
+        recipients = NewRecipients(
+          group = NewRecipients.Group(
+            id = group.id,
+            subGroups = listOfNotNull(state.subGroupId)
+          ),
         )
       )
     )
@@ -135,7 +142,7 @@ class SponkTest : ASponkImplClientTest() {
       limit = 999u
     ).count {
       supervisorScope {
-        sponk.cancelEvent(it.id, quiet = true, reason = "Cleanup")
+        it.id?.let { id -> sponk.cancelEvent(id, quiet = true, reason = "Cleanup") }
       }
       true
     }

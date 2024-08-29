@@ -26,14 +26,4 @@ data class NewGroup(
   var subGroups: List<NewSubGroup> = listOf(),
   @SerialName("welcomeMessage")
   var welcomeMessage: String? = null
-) {
-  @Serializable
-  data class SubGroup(
-    @SerialName("color")
-    var color: String,
-    @SerialName("index")
-    var index: UInt? = null,
-    @SerialName("name")
-    var name: String
-  )
-}
+)

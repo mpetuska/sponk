@@ -17,13 +17,15 @@ Heavily inspired by prior work at https://github.com/Olen/Spond.
 5. Filter by `XHR` requests only
 6. Filter by url `/core/v1`
 7. Create `sponk.config.json` file at the project root with the following contents
-  ```json5
-  {
+
+```json5
+{
   "username": "<email>",
   "password": "<password>",
   // Optional
-  "groupId": "<The ID of the group you want to test against as seen in the webpage url>"
+  "groupId": "9AA7C006C4C44E4CA70C5025A5BDB1AE"
 }
-  ```
+```
+
 8. Run various actions
-   in [./sponk/src/jvmTest/kotlin/dev/petuska/sponk/SponkTest.kt](./sponk/src/jvmTest/kotlin/dev/petuska/sponk/SponkTest.kt)
+   in [./sponk/src/commonTest/kotlin/dev/petuska/sponk/SponkTest.kt](./sponk/src/commonTest/kotlin/dev/petuska/sponk/SponkTest.kt)

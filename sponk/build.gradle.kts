@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.ExplicitApiMode
+
 plugins {
   id("kmp")
   id("detekt")
@@ -5,6 +7,7 @@ plugins {
 }
 
 kotlin {
+  explicitApi = ExplicitApiMode.Disabled
   jvmToolchain(21)
   jvm {
     withJava()
@@ -48,13 +51,11 @@ tasks {
       .orElse(providers.systemProperty("sponk.config.file"))
       .orElse(provider { ext.get("sponk.config.file")?.toString() })
       .orElse(providers.gradleProperty("sponk.config.file"))
-    val configFilePath = configFileProp.get()
-    val configFile = projectDir.resolve(configFilePath).takeIf(File::exists)
-      ?: rootDir.resolve(configFilePath)
+    val configFile = layout.projectDirectory.file(configFileProp).orElse(rootProject.layout.projectDirectory.file(configFileProp))
     inputs.file(configFile)
     environment(
       "SPONK_CONFIG_FILE",
-      configFile.takeIf(File::exists)?.absolutePath ?: error("Sponk config file does not exist: $configFilePath")
+      configFile.map { it.asFile.absolutePath }
     )
   }
 }

@@ -2,6 +2,7 @@ package dev.petuska.sponk.test
 
 import dev.petuska.sponk.data.event.EventId
 import dev.petuska.sponk.data.group.GroupId
+import dev.petuska.sponk.data.group.SubGroup
 import io.ktor.client.plugins.auth.providers.*
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
@@ -25,6 +26,7 @@ data class ASponkClientConfig(
     @Serializable(with = BearerTokensSerializer::class)
     val bearerTokens: BearerTokens? = null,
     val groupId: GroupId? = null,
+    val subGroupId: GroupId? = null,
     val eventId: EventId? = null,
   )
 }
